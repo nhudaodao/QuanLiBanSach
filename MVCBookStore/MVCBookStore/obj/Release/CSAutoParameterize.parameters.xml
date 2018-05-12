@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-MVCBookStore-20180407050225.mdf;Initial Catalog=aspnet-MVCBookStore-20180407050225;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CNPMNC_TH\\MVCBookStore\\MVCBookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="QLBANSACHConnectionString-Web.config Connection String" description="QLBANSACHConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=DESKTOP-LJUSHKI\SQLEXPRESS;Initial Catalog=QLBANSACH;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CNPMNC_TH\\MVCBookStore\\MVCBookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QLBANSACHConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="QLBANSACHConnectionString1-Web.config Connection String" description="QLBANSACHConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=DESKTOP-84DNLIL\SQLEXPRESS;Initial Catalog=QLBANSACH;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CNPMNC_TH\\MVCBookStore\\MVCBookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QLBANSACHConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>
